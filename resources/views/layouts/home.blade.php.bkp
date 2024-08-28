@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TodoApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="/assets/images/logo.png" alt="">
+        </div>
+        <div class="content">
+            <nav>
+                <a href="#" class="btn btn-primary">
+                    Criar Tarefa
+                </a>
+            </nav>
+            <main>
+                <section class="graph">
+                    <div class="graph-header">
+                        <h2>Progresso do Dia</h2>
+                        <div class="graph-header-line"></div>
+                        <div class="graph-header-date">
+                            
+                            <img src="/assets/images/icon-prev.png" alt="Anterior">
+                                13 de Dez
+                            <img src="/assets/images/icon-next.png" alt="Proximo">
+                        </div>
+                    </div>
+                    <div class="graph-header-subtitle"> Tarefa: <b>3/6</b></div>
+
+                    <div class="graph-placeholder">
+                    </div>
+                    <div class="tasks-left-footer">
+                       <img src="/assets/images/icon-info.png" alt="Infos"> Restam 3 tarefas para serem realizadas
+                    </div>
+                </section>
+                <section class="list">
+                    <div class="list-header">
+                        <select  class="list-header-select">
+                            <option value="1">Todas as tarefas</option>
+                        </select>
+                    </div>
+                    <div class="task-list">
+                        <div class="task">
+                            <div class="title">
+                                <input type="checkbox" />
+                                <div class="task-title">Titulo da tarefa</div>
+                            </div>
+                            <div class="priority">
+                                <div class="sphere"></div>
+                                <div>Titulo da prioridade</div>
+                            </div>
+                            <div class="actions">
+                                <a href="#">
+                                    <img src="/assets/images/icon-edit.png" alt="Icone de edição">
+                                </a>
+                                
+                                <a href="#">
+                                    <img src="/assets/images/icon-delete.png" alt="Icone para deletar">
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="title">
+                                <input type="checkbox" />
+                                <div class="task-title">Titulo da tarefa</div>
+                            </div>
+                            <div class="priority">
+                                <div class="sphere"></div>
+                                <div>Titulo da prioridade</div>
+                            </div>
+                            <div class="actions">
+                                Editar - Excluir
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
